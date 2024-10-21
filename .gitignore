@@ -23,3 +23,5 @@ yarn-error.log
 docker-compose.yml
 Dockerfile
 vhost.conf
+composer.lock
+package-lock.json
