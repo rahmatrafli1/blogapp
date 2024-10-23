@@ -9,7 +9,7 @@
             </a>
             <div class="text-base text-gray-500">
                 <a href="#" class="text-blue-500 hover:underline font-medium">{{ $post['author'] }}</a> |
-                {{ $post['date'] }}
+                {{ \Carbon\Carbon::parse($post['created_at'])->locale('id')->diffForHumans() }}
             </div>
             <p class="py-4 font-light">{{ Str::limit($post['body'], 100) }}</p>
             <a href="/posts/{{ $post['slug'] }}" class="font-medium text-blue-500 hover:underline">Read more &raquo;</a>
