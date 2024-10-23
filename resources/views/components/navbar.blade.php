@@ -12,7 +12,7 @@
                         <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
                         <x-nav-link href="about" :active="request()->is('about')">About</x-nav-link>
                         <x-nav-link href="contact" :active="request()->is('contact')">Contact</x-nav-link>
-                        <x-nav-link href="blog" :active="request()->is('blog')">Blog</x-nav-link>
+                        <x-nav-link href="posts" :active="request()->is('posts')">Posts</x-nav-link>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
             <x-nav-link-mobile href="/" :active="request()->is('/')">Home</x-nav-link-mobile>
             <x-nav-link-mobile href="about" :active="request()->is('about')">About</x-nav-link-mobile>
             <x-nav-link-mobile href="contact" :active="request()->is('contact')">Contact</x-nav-link-mobile>
-            <x-nav-link-mobile href="blog" :active="request()->is('blog')">Blog</x-nav-link-mobile>
+            <x-nav-link-mobile href="posts" :active="request()->is('posts')">Posts</x-nav-link-mobile>
         </div>
         <div class="border-t border-gray-700 pb-3 pt-4">
             <div class="flex items-center px-5">
