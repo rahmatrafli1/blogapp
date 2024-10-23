@@ -25,3 +25,4 @@ Dockerfile
 vhost.conf
 composer.lock
 package-lock.json
+.devdbrc
